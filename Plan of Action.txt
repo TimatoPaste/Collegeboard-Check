@@ -1,0 +1,5 @@
+1. Webscrape collegeboard student list
+2. Compare list to student portal
+3. get student ids
+4. Check cb website for testing times
+5. Make graphic pass.
