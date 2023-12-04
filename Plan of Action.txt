@@ -3,3 +3,5 @@
 3. get student ids
 4. Check cb website for testing times
 5. Make graphic pass.
+
+https://googlechromelabs.github.io/chrome-for-testing/
