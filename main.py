@@ -5,10 +5,15 @@ from selenium.webdriver.support.ui import WebDriverWait;
 from selenium.webdriver.support import expected_conditions as EC;
 import time;
 
-wiki = wd.Chrome("./chromedriver-win64/chromedriver");
-wiki.get("https://en.wikipedia.org/wiki/List_of_legendary_creatures_by_type");
+#maybe want to put the links and creds in text file
+collegeboardLink = input("Enter collegeboard link\n").strip().replace(" ","");
+cb = wd.Chrome("./chromedriver-win64/chromedriver");
 
+studentportalLink = input("Enter student portal link\n").strip().replace(" ","");
 pdf = wd.Chrome("./chromedriver-win64/chromedriver"); 
-pdf.get("https://drive.google.com/file/d/1Q8TBnHlJ9Rpybmg3ioXwqJPtaizZty6V/view");
 
-wait = input("hi")
+
+cb.get(collegeboardlink);
+pdf.get(studentportalLink);
+
+wait = input("Program finished running. Enter to end.")
